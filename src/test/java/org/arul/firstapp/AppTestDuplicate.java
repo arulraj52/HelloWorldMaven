@@ -35,4 +35,8 @@ public class AppTestDuplicate
     {
         assertTrue(true);
     }
+    public void testApp_2()
+    {
+        assertTrue(true);
+    }
 }
