@@ -18,7 +18,7 @@ public class AppTest
 
     private int n1 = 1;
     private int n2 = 1;
-    private String s = "no more null";
+    private String s;
     public AppTest( String testName )
     {
         super( testName );
