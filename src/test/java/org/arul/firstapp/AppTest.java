@@ -15,6 +15,9 @@ public class AppTest
      *
      * @param testName name of the test case
      */
+
+    private int n1 = 1;
+    private int n2 = 2;
     public AppTest( String testName )
     {
         super( testName );
@@ -38,7 +41,7 @@ public class AppTest
 
     public void testAgain()
     {
-        assertEquals(1, 1);
+        assertEquals(n1, n2);
     }
 
 }
