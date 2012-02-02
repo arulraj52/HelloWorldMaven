@@ -3,6 +3,7 @@ package org.arul.firstapp;
 import junit.framework.Test;
 import junit.framework.TestCase;
 import junit.framework.TestSuite;
+import junit.framework.AssertionFailedError;
 
 /**
  * Unit test for simple App.
@@ -18,7 +19,7 @@ public class AppTest
 
     private int n1 = 1;
     private int n2 = 1;
-    private String s;
+    private String s = "not null!";
     public AppTest( String testName )
     {
         super( testName );
