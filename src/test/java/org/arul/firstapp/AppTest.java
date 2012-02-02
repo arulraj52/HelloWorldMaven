@@ -38,7 +38,7 @@ public class AppTest
 
     public void testAgain()
     {
-        assertEquals(1,1);
+        assertEquals(1,2);
     }
 
 }
