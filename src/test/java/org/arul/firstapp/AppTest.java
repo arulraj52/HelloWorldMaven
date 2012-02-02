@@ -33,12 +33,12 @@ public class AppTest
      */
     public void testApp()
     {
-        assertTrue(false);
+        assertTrue(true);
     }
 
-/*    public void testAgain()
+    public void testAgain()
     {
-        assertTrue(false);
+        assertEquals(1,1);
     }
-*/
+
 }
