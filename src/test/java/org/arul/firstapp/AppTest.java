@@ -17,7 +17,8 @@ public class AppTest
      */
 
     private int n1 = 1;
-    private int n2 = 2;
+    private int n2 = 1;
+    private String s;
     public AppTest( String testName )
     {
         super( testName );
@@ -44,4 +45,9 @@ public class AppTest
         assertEquals(n1, n2);
     }
 
+
+    public void testYetAgain()
+    {
+        assertNull(s);
+    }
 }
