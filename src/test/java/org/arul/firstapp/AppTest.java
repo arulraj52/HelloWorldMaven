@@ -36,4 +36,8 @@ public class AppTest
         assertTrue(true);
     }
 
+    public void testAgain()
+    {
+        assertTrue(true);
+    }
 }
