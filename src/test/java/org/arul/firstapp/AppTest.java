@@ -40,4 +40,8 @@ public class AppTest
     {
         assertTrue(true);
     }
+    public void testYetAgain()
+    {
+        assertTrue(true);
+    }
 }
